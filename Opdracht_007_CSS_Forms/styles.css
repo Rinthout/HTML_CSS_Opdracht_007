@@ -1,0 +1,112 @@
+body { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(0, 0, 0);
+    background-color:rgb(200, 200, 200);
+    text-align:center;
+    font-size: 20px;
+    line-height: default;
+}
+
+h1 {
+    margin: 0 auto;
+    width:300px;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 100, 0);
+    font-family:monospace;
+    font-size: 130%;
+    border: 2px dashed rgb(255, 100, 0);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar li {
+    list-style-type: none;
+    font-size: 110%;
+    display: inline;
+}
+
+a:link, a:visited {
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 14px 25px;
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+a:hover, a:active {
+    background-color: rgb(255, 100, 0);
+  }
+
+.dingen {
+    text-align: left;
+    margin: 0 auto;
+    width:fit-content
+}
+
+.black-border {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.footer {
+    background-color:lightgray;
+}
+
+.lettertype{
+    font-family:fantasy;
+    font-size:1.2em;
+    color:rgb(80, 80, 80);
+}
+
+.fotoborder {
+    width: 250px;
+	margin: 10px;
+    padding: 10px;
+	text-align: center;
+	border: 3px dotted rgb(255, 100, 0);
+    border-radius: 15px;    
+}
+
+.body-about {
+    background-color:rgb(145, 156, 113);
+}
+
+.body-info {
+    background-color:rgb(185, 169, 124);
+}
+
+.formfield {
+    vertical-align: top;
+}
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    
+body {   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(223, 223, 223);
+    background-color:rgb(145, 179, 135);
+    text-align:center;
+    font-size: 16px;
+    line-height: default;
+    }
+
+    h1 {
+        margin: 0 auto;
+        width:500px;
+        text-align: center;
+    }
+    
+
+}
+
